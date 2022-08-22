@@ -25,7 +25,7 @@ If the user satisfies the above properties during read/write, then he/she can ac
 **Note:** The name of text files containing data must be same as the name of the data in the files 'inputObj.txt' and 'inputIns.txt'.
 
 When the user is granted access to write, the respective new text file of data is encrypted and AONT transformed.
-Similarly, when the user is granted access to read, the respective text file of data is AONT reversed, and then decrypted using Proxy Re-Encryption to get the original text file.<br/><br/>
+Similarly, when the user is granted access to read, the respective text file of data is AONT reversed, and then decrypted using Re-Encryption to get the original text file.<br/><br/>
 ## Directory structure of the project
 The file 'chka.cpp' is the main file of the project. 
 
@@ -76,5 +76,12 @@ make
 ```
 ./test inputSub.txt inputObj.txt inputIns.txt
 ```
-<br/><br/>
+
+## Sources
+* The cryptosystem, including the key generation, encryption, decryption, and re-encryption, used in the project is implemented using the [PALISADE](https://gitlab.com/palisade/palisade-release) library.
+* The source code for All-Or-Nothing-Transform (AONT) has been used from the [aont](https://github.com/nsg21/aont) repository.
+* The implementation of the Bell-LaPadula scheme has been inspired from the [blp_model](https://github.com/kashifmin/blp_model) repository.
+
+---------------------------------------------------------------------
+
 **Note: This project has been made for educational purposes, as a part of internship at Indian Institute of Information Technology, Guwahati**
