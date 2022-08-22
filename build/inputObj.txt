@@ -1,0 +1,6 @@
+aobj 1
+jobj 2
+tobj 3
+sobj 1
+kobj 2
+lobj 3

@@ -1,0 +1,10 @@
+write adam aobj
+read adam
+write adam aobj aobj.txt aobj.txt
+read adam aobj aobj.txt
+write sara sobj sobj.txt
+read tim sobj
+write kristy jobj jobj.txt
+write liz kobj kobj.txt
+read sara tobj
+write james lobj lobj.txt
