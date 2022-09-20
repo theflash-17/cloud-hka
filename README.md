@@ -1,5 +1,5 @@
 # cloud-hka
-This project uses Proxy Re-Encryption (PRE), and All-Or-Nothing-Transform (AONT) along with Bell-LaPadula scheme to implement a secure method for hierarchical key access access control.
+This project uses Fully Homomorphic Encryption - Brakerski/Fan-Vercauteren (BFV) scheme, Proxy Re-Encryption (PRE), and All-Or-Nothing-Transform (AONT) along with Bell-LaPadula scheme to implement a secure method for hierarchical key access access control.
 
 This project is based on the paper - '**CloudHKA: A Cryptographic Approach for Hierachical Access Control in Cloud Computing**', by Yi-Ruei Chen, Cheng-Kang Chu, Wen-Guey Tzeng, and Jianying Zhou. In *11th International Conference on Applied Cryptography and Network Security (ACNS'13)*.
 <br/><br/>
